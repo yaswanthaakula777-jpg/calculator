@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: linear-gradient(135deg,#1e1e2f,#3a3a5f);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background: black;
+    padding: 20px;
+    border-radius: 20px;
+    
+    width: 300px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.display{
+    background: black;
+    color: white;
+    text-align: right;
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3px;
+}
+.st3{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: gray;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2sec;
+}
+.st3:hover{
+    background: rgb(50, 46, 46);
+}
+.op{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgb(229, 187, 34);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2sec;
+}
+.op:hover{
+    background: rgb(50, 46, 46);
+}
+.num{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgb(66,63,63);
+    color: rgb(251, 248, 251);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2sec;
+}
+.num:hover{
+    background: rgb(50, 46, 46);
+}
+.isequal{
+     width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgb(229, 187, 34);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2sec;
+}
+.isequal:hover{
+    background: rgb(212, 58, 15);
+}
+.zero{
+    grid-column:span 2;
+}
+.title{
+    text-align: center;
+    color: aliceblue;
+    height: 200px;
+    font-size: 50px;
+    font-family: monospace;
+    text-decoration: underline;
+}
+.Butt{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    background-color: red;
+    border-radius: 20%;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;    
+}
+.Butt:hover{
+    background-color:dimgray;
+}
+.But{
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    background-color: red;
+    border-radius: 20%;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium; 
+}
+.But:hover{
+     background-color:dimgray;
+}
+.Bu{
+     position: absolute;
+    top: 20px;
+    right: 50px;
+    background-color: red;
+    border-radius: 20%;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium; 
+
+}
+.Bu:hover{
+    background-color:dimgray;
+}
