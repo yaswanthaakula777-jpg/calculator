@@ -15,7 +15,6 @@ body{
     background: black;
     padding: 20px;
     border-radius: 20px;
-    
     width: 300px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
@@ -33,7 +32,7 @@ body{
     grid-template-columns: repeat(4,1fr);
     gap: 3px;
 }
-.st3{
+.util{
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -41,10 +40,13 @@ body{
     color: black;
     font-size: 1rem;
     cursor: pointer;
-    transition: 0.2sec;
+    transition: 0.2sec;border: none;
 }
-.st3:hover{
+.util:hover{
     background: rgb(50, 46, 46);
+}
+.util:active{
+    background: gray;
 }
 .op{
     width: 45px;
@@ -54,11 +56,11 @@ body{
     color: white;
     font-size: 1rem;
     cursor: pointer;
-    transition: 0.2sec;
+    transition: 0.2sec;border: none;
 }
 .op:hover{
-    background: rgb(50, 46, 46);
-}
+    background: hsl(47, 79%, 40%);
+}.op:active{background: rgb(229,187,34);}
 .num{
     width: 45px;
     height: 45px;
@@ -68,9 +70,13 @@ body{
     font-size: 1rem;
     cursor: pointer;
     transition: 0.2sec;
+    border: none;
 }
 .num:hover{
     background: rgb(50, 46, 46);
+}
+.num:active{
+    background: rgb(66,63,63);
 }
 .isequal{
      width: 45px;
@@ -80,7 +86,7 @@ body{
     color: white;
     font-size: 1rem;
     cursor: pointer;
-    transition: 0.2sec;
+    transition: 0.2sec;border: none;
 }
 .isequal:hover{
     background: rgb(212, 58, 15);
